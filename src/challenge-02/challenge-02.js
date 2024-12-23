@@ -14,5 +14,3 @@ function createFrame(names) {
   result = result.concat(`**${'*'.repeat(maxLength)}**`)
   return result
 }
-
-createFrame(['javi', 'javier piqueras', 'ari', 'tanielli'])

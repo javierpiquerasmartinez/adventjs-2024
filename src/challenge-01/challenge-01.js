@@ -7,5 +7,3 @@ function prepareGifts(gifts) {
   let result = Array.from(uniqueGifts).sort((x, y) => x - y)
   return result
 }
-
-prepareGifts([12,2])
